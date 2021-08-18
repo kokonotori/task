@@ -67,4 +67,46 @@
     height: 50px;
     background-color: #aaa;
   }
+
+
+  @media screen and (max-width: 768px) {
+    
+
+    main {
+        width:90%;
+        margin: 50px auto;
+        display:block;
+      }
+    
+    .step-box{
+        width:100%;
+        
+    }
+    .step-box:nth-child(2){
+      margin:20px 0;
+    }
+    .step-img1 {
+      
+      height: 150px;
+      background-image: url(img/flow01.png);
+      background-position: bottom;
+      background-size: cover;
+    }
+    
+    .step-img2 {
+      height: 150px;
+      background-image: url(img/flow02.png);
+      background-position: bottom;
+      background-size: cover;
+    }
+    
+    .step-img3 {
+      height: 150px;
+      background-image: url(img/flow03.png);
+      background-position: bottom;
+      background-size: cover;
+    }
+    
+  }
+
   
